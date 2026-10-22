@@ -1,17 +1,57 @@
 <p align="center">
-  <img src="https://latimpacto.org/wp-content/uploads/2023/11/Eafit.png" width="40%">
+  <img src="https://latimpacto.org/wp-content/uploads/2023/11/Eafit.png" width="38%">
 </p>
 
 <h1 align="center">SI7011 — Deep Learning</h1>
 
-Repositorio de entregas del curso **SI7011 — Deep Learning** de la Universidad EAFIT.
+<p align="center">
+Repositorio académico para el desarrollo de los eventos evaluativos y ejercicios integradores del curso <strong>SI7011 — Deep Learning</strong> de la Universidad EAFIT.
+</p>
 
-## Integrantes
+## Autor
 
-- Juan Camilo Cataño Zuleta
-- Segundo integrante: pendiente por agregar
+**Juan Camilo Cataño Zuleta**
 
-## Organización del repositorio
+## Sobre el repositorio
+
+Este repositorio reúne el trabajo práctico desarrollado durante el curso, con énfasis en la construcción, entrenamiento, evaluación y análisis experimental de modelos de aprendizaje profundo.
+
+Los notebooks integradores combinan conceptos vistos en clase como inicialización de redes, optimización, regularización, normalización, diagnóstico de entrenamiento, seguimiento de experimentos e inferencia reproducible.
+
+El trabajo se desarrolla principalmente con **PyTorch**, **scikit-learn** y **MLflow**, utilizando notebooks ejecutables como evidencia de cada experimento y de las decisiones tomadas durante el modelado.
+
+## Eventos evaluativos
+
+### Evento 1 — Aprendizaje y entrenamiento
+
+El primer evento se concentra en los fundamentos del entrenamiento de redes neuronales y en la interpretación de evidencia experimental.
+
+**Parte A — Lectura de evidencia**  
+Examen individual orientado al diagnóstico de curvas de entrenamiento, inicialización, propagación de varianza, tamaño de lote, profundidad y regularización.
+
+Archivo: [`evento1/parte_a/examen_parte_a.pdf`](evento1/parte_a/examen_parte_a.pdf)
+
+**Parte B — Integrador Covertype + MLflow**  
+Problema de clasificación multiclase sobre el dataset **Covertype**, con 54 variables de entrada y 7 tipos de cobertura forestal. El ejercicio integra:
+
+- partición estratificada y preprocesamiento sin fuga de información;
+- construcción de un MLP en PyTorch;
+- inicialización He, normalización y regularización;
+- optimización con AdamW y programación de la tasa de aprendizaje;
+- seguimiento y comparación de corridas con MLflow;
+- evaluación mediante `accuracy` y `macro F1`;
+- selección del modelo mediante validación;
+- construcción de una función de inferencia sobre observaciones crudas.
+
+Notebook: `evento1/sesion_02_6_integrador_covertype.ipynb`
+
+### Evento 2 — Arquitecturas para visión
+
+El segundo evento aborda modelos de visión profunda mediante el dataset **EuroSAT**. El integrador trabaja con imágenes satelitales y experimentación controlada sobre arquitecturas convolucionales y estrategias vistas durante la sesión de visión.
+
+Notebook: `evento2/sesion_03_6_integrador_eurosat.ipynb`
+
+## Organización
 
 ```text
 si7011-catano/
@@ -24,33 +64,14 @@ si7011-catano/
 ├── evento2/
 │   └── sesion_03_6_integrador_eurosat.ipynb
 └── evento3/
-    └── pendiente
 ```
 
-## Evento evaluativo 1 — Aprendizaje y entrenamiento
+## Enfoque experimental
 
-- **Parte A:** examen individual de lectura e interpretación de evidencia.
-- **Parte B:** notebook integrador de Covertype + MLflow.
+Los entregables buscan que cada decisión de modelado pueda justificarse a partir de evidencia observable. Por ello, los notebooks conservan las métricas, curvas de entrenamiento, comparaciones entre corridas y resultados necesarios para analizar el comportamiento de los modelos, no solo su implementación final.
 
-La Parte B se entregará ejecutada, con los cuatro TODO resueltos, las salidas visibles y las respuestas de la sección 11 sustentadas en los resultados de las corridas.
+---
 
-## Evento evaluativo 2 — Arquitecturas para visión
-
-Se incorporará el notebook integrador de EuroSAT en `evento2/`.
-
-## Evento evaluativo 3
-
-Pendiente de publicación en el repositorio oficial del curso.
-
-## Reglas de entrega
-
-- Repositorio privado por pareja para todo el curso.
-- No se versionan datasets, bases de MLflow ni checkpoints de modelos.
-- Se conserva únicamente el código y los notebooks requeridos para las entregas.
-- El profesor del curso debe estar agregado como colaborador del repositorio.
-
-## Curso
-
-**SI7011 — Deep Learning**  
-Universidad EAFIT  
-Profesor: Juan David Martínez Vargas (`jdmartinev`)
+**Universidad EAFIT**  
+**Curso:** SI7011 — Deep Learning  
+**Profesor:** Juan David Martínez Vargas
