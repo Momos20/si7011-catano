@@ -1,4 +1,8 @@
-# SI7011 — Deep Learning
+<p align="center">
+  <img src="https://latimpacto.org/wp-content/uploads/2023/11/Eafit.png" width="40%">
+</p>
+
+<h1 align="center">SI7011 — Deep Learning/h1>
 
 Repositorio de entregas del curso **SI7011 — Deep Learning** de la Universidad EAFIT.
 
