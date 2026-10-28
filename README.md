@@ -78,10 +78,6 @@ si7011-catano/
 └── evento3/
 ```
 
-## Enfoque experimental
-
-Los entregables buscan que cada decisión de modelado pueda justificarse a partir de evidencia observable; por ello, los notebooks conservan métricas, curvas de entrenamiento, comparaciones entre corridas, matrices de confusión y resultados suficientes para analizar el comportamiento de los modelos, no solo su implementación final.
-
 ---
 
 **Universidad EAFIT**  
