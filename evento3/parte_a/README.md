@@ -6,4 +6,4 @@ La evaluación aborda partición temporal y fugas de información, RNN/LSTM/GRU,
 
 Archivo de entrega:
 
-`examen_parte_a.pdf`
+`examen_parte_a_3.pdf`
