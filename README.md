@@ -65,7 +65,7 @@ El tercer evento reúne contenidos de las sesiones 05 y 06, incluyendo series de
 **Parte A — Lectura de evidencia**  
 Evaluación individual de ocho preguntas sobre resultados reales de los notebooks de secuencias y modelos fundacionales.
 
-Archivo: `evento3/parte_a/examen_parte_a.pdf`
+Archivo: `evento3/parte_a/examen_parte_a_3.pdf`
 
 **Parte B — Integrador de modelos fundacionales**  
 El ejercicio adapta un modelo de lenguaje mediante LoRA, compara condiciones experimentales con MLflow y culmina con un flujo de inferencia reproducible mediante `responder_raw`.
@@ -97,7 +97,7 @@ si7011-catano/
     ├── README.md
     ├── parte_a/
     │   ├── README.md
-    │   └── examen_parte_a.pdf
+    │   └── examen_parte_a_3.pdf
     └── sesion_06_6_integrador_estilo_llm.ipynb
 ```
 
