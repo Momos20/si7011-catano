@@ -4,9 +4,9 @@ Evento correspondiente a las sesiones **01 y 02** del curso SI7011 — Deep Lear
 
 El evento está compuesto por dos partes: una evaluación individual y un ejercicio integrador de entrenamiento y despliegue con **PyTorch** y **MLflow**.
 
-## Parte A — Preguntas
+## Parte A — Examen individual
 
-La evaluación individual se conserva como evidencia en:
+La evaluación se conserva como evidencia en:
 
 `parte_a/examen_parte_a.pdf`
 
