@@ -26,8 +26,8 @@ El trabajo se desarrolla principalmente con **PyTorch**, **scikit-learn**, **tor
 
 El primer evento se concentra en los fundamentos del entrenamiento de redes neuronales y en la interpretación de evidencia experimental.
 
-**Parte A — Lectura de evidencia**  
-Examen individual orientado al diagnóstico de curvas de entrenamiento, inicialización, propagación de varianza, tamaño de lote, profundidad y regularización.
+**Parte A — Examen individual**  
+Evaluación sobre fundamentos del entrenamiento de redes neuronales: curvas de aprendizaje, inicialización, propagación de varianza, tamaño de lote, profundidad y regularización.
 
 [Ver Parte A](evento1/parte_a/examen_parte_a.pdf)
 
@@ -44,8 +44,8 @@ Problema de clasificación multiclase sobre el dataset **Covertype**, con 54 var
 
 El segundo evento aborda modelos de visión profunda mediante **EuroSAT**, un conjunto de 27 000 imágenes satelitales RGB clasificadas en 10 tipos de uso del suelo.
 
-**Parte A — Lectura de evidencia**  
-Evaluación individual sobre estructura espacial en CNN, convoluciones y campo receptivo, BatchNorm, data augmentation, redes residuales, transfer learning y Vision Transformers.
+**Parte A — Examen individual**  
+Evaluación sobre arquitecturas de visión por computador, incluyendo CNN, BatchNorm, data augmentation, redes residuales, transfer learning y Vision Transformers.
 
 [Ver Parte A](evento2/parte_a/examen_parte_a.pdf)
 
@@ -62,8 +62,8 @@ El ejercicio compara una CNN entrenada desde cero con estrategias de fine-tuning
 
 El tercer evento reúne contenidos de las sesiones 05 y 06, incluyendo series de tiempo, RNN/LSTM/GRU, embeddings, seq2seq con atención, autoatención, Transformers, ajuste supervisado y LoRA.
 
-**Parte A — Lectura de evidencia**  
-Evaluación individual de ocho preguntas sobre resultados reales de los notebooks de secuencias y modelos fundacionales.
+**Parte A — Examen individual**  
+Evaluación sobre secuencias y modelos fundacionales, con preguntas de partición temporal, RNN/LSTM/GRU, embeddings, atención, Transformers, SFT y LoRA.
 
 Archivo: `evento3/parte_a/examen_parte_a_3.pdf`
 
