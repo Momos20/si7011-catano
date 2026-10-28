@@ -4,9 +4,9 @@ Este evento corresponde a las sesiones 05 y 06 del curso y se centra en modelado
 
 ## Entregables
 
-### Parte A — Lectura de evidencia
+### Parte A — Examen individual
 
-La Parte A corresponde al examen individual de ocho preguntas sobre partición temporal y fugas de información, RNN/LSTM/GRU, embeddings y orden en texto, seq2seq con atención, máscaras y posiciones, costo de la autoatención, ajuste supervisado y LoRA.
+La evaluación aborda partición temporal y fugas de información, RNN/LSTM/GRU, embeddings y orden en texto, seq2seq con atención, máscaras y posiciones, costo de la autoatención, ajuste supervisado y LoRA.
 
 El PDF diligenciado se conserva en:
 
