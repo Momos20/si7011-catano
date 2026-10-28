@@ -16,9 +16,9 @@ Repositorio académico para el desarrollo de los eventos evaluativos y ejercicio
 
 Este repositorio reúne el trabajo práctico desarrollado durante el curso, con énfasis en la construcción, entrenamiento, evaluación y análisis experimental de modelos de aprendizaje profundo.
 
-Los notebooks integradores combinan conceptos vistos en clase como inicialización de redes, optimización, regularización, normalización, diagnóstico de entrenamiento, seguimiento de experimentos, arquitecturas para visión, transfer learning e inferencia reproducible.
+Los notebooks integradores combinan conceptos vistos en clase como inicialización de redes, optimización, regularización, normalización, diagnóstico de entrenamiento, seguimiento de experimentos, arquitecturas para visión, transfer learning, modelado secuencial, atención, Transformers y adaptación eficiente de modelos preentrenados.
 
-El trabajo se desarrolla principalmente con **PyTorch**, **scikit-learn**, **torchvision** y **MLflow**, utilizando notebooks ejecutados como evidencia de cada experimento y de las decisiones tomadas durante el modelado.
+El trabajo se desarrolla principalmente con **PyTorch**, **scikit-learn**, **torchvision**, **Transformers**, **PEFT** y **MLflow**, utilizando notebooks ejecutados como evidencia de cada experimento y de las decisiones tomadas durante el modelado.
 
 ## Eventos evaluativos
 
@@ -58,6 +58,24 @@ El ejercicio compara una CNN entrenada desde cero con estrategias de fine-tuning
 
 [Ver README del Evento 2](evento2/README.md)
 
+### Evento 3 — Secuencias y modelos fundacionales
+
+El tercer evento reúne contenidos de las sesiones 05 y 06, incluyendo series de tiempo, RNN/LSTM/GRU, embeddings, seq2seq con atención, autoatención, Transformers, ajuste supervisado y LoRA.
+
+**Parte A — Lectura de evidencia**  
+Evaluación individual de ocho preguntas sobre resultados reales de los notebooks de secuencias y modelos fundacionales.
+
+Archivo: `evento3/parte_a/examen_parte_a.pdf`
+
+**Parte B — Integrador de modelos fundacionales**  
+El ejercicio adapta un modelo de lenguaje mediante LoRA, compara condiciones experimentales con MLflow y culmina con un flujo de inferencia reproducible mediante `responder_raw`.
+
+Notebook previsto: `evento3/sesion_06_6_integrador_estilo_llm.ipynb`
+
+[![Abrir Evento 3 en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Momos20/si7011-catano/blob/main/evento3/sesion_06_6_integrador_estilo_llm.ipynb)
+
+[Ver README del Evento 3](evento3/README.md)
+
 ## Organización
 
 ```text
@@ -76,6 +94,11 @@ si7011-catano/
 │   │   └── examen_parte_a.pdf
 │   └── sesion_03_6_integrador_eurosat.ipynb
 └── evento3/
+    ├── README.md
+    ├── parte_a/
+    │   ├── README.md
+    │   └── examen_parte_a.pdf
+    └── sesion_06_6_integrador_estilo_llm.ipynb
 ```
 
 ---
