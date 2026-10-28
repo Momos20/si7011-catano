@@ -10,7 +10,7 @@ La Parte A corresponde al examen individual de ocho preguntas sobre partición t
 
 El PDF diligenciado se conserva en:
 
-`parte_a/examen_parte_a.pdf`
+`parte_a/examen_parte_a_3.pdf`
 
 ### Parte B — Integrador de modelos fundacionales
 
@@ -31,7 +31,7 @@ evento3/
 ├── README.md
 ├── parte_a/
 │   ├── README.md
-│   └── examen_parte_a.pdf
+│   └── examen_parte_a_3.pdf
 └── sesion_06_6_integrador_estilo_llm.ipynb
 ```
 
