@@ -4,9 +4,9 @@ Este evento corresponde a la sesión 03 del curso y se centra en arquitecturas d
 
 ## Entregables
 
-### Parte A — Lectura de evidencia
+### Parte A — Examen individual
 
-La Parte A corresponde al examen individual sobre CNN, BatchNorm, data augmentation, redes residuales, transfer learning y Vision Transformers.
+La evaluación aborda CNN, BatchNorm, data augmentation, redes residuales, transfer learning y Vision Transformers.
 
 [Ver PDF de la Parte A](parte_a/examen_parte_a.pdf)
 
